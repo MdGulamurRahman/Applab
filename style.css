@@ -29,6 +29,7 @@ a{
 header{
     background-color:#f9fbfc;
     margin-top: 20px;
+    
 }
 .inner_header{
     display: flex;
@@ -69,4 +70,46 @@ header{
     line-height: 44px;
     color: #ffffff;
     font-weight: 700;   
+}
+
+/* banner area  */
+
+.banner_area{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 41px;
+    background-image: url('./images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text_area h1{
+    font-size: 60px;
+    line-height: 75px;
+    color: #242f51;
+    font-weight: 600;
+}
+.text_area p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #616368;
+    font-weight: 400;
+    padding-top: 47px;
+}
+.text_area p a{
+    font-size: 16px;
+    line-height: 44px;
+    color: #2500f9;
+    font-weight: 400;
+}
+.watch_demo{
+    display: flex;
+    align-items: center;
+    padding-top: 39px;
+}
+.watch_demo p{
+    padding: 0 29px;
 }
