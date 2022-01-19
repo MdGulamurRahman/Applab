@@ -1,0 +1,64 @@
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    #menu_toggler{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .banner_text h1 {
+        font-size: 44px;
+        line-height: 62px;
+        margin: 20px 0;
+    }
+    #banner{
+        background-size: cover;
+        background-position:left bottom;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #banner{
+        background-size: cover;
+        background-position:left bottom;
+        margin: 50px 0;
+    }
+    .inner_banner {
+        flex-direction: column;
+    }
+    .banner_text{
+        order: 2;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .banner_img{
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 570px) {
+    .banner_text h6{
+        max-width: 362px;
+    }
+    .banner_text h1 {
+        font-size: 36px;
+        line-height: 53px;
+        margin: 23px 0;
+     
+    }
+    .watch_demo {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .demo_btn {
+        margin-right: 24px;
+    }
+    
+}
+

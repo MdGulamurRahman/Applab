@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Applab</title>
-    <link rel="stylesheet" href="style.css">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- min css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
+    <!-- header section start -->
     <header>
         <div class="container inner_header">
             <div class="logo_area">
@@ -26,20 +29,28 @@
                     <li><button class="trail_btn">Try for free</button></li>
                 </ul>
             </nav>
+            <button id="menu_toggler"><i class="fas fa-bars"></i></button>
         </div>
-        <div class="container banner_area">
-            <div class="text_area">
+    </header>
+    <!-- header section end -->
+    <!-- Banner section start -->
+    <section id="banner">
+        <div class="container inner_banner">
+            <div class="banner_text">
+                <h6><i class="far fa-check-circle"></i> #1 Editiors Choice App of 2020</h6>
                 <h1>Best app for your modern lifestyle</h1>
-                <p>Increase productivity with a simple to-do app. app for <br> managing your personal budgets.</p>
+                <p>Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
                 <div class="watch_demo">
                     <button class="trail_btn">Try for free</button>
-                    <p><a href="#">Watch demo video</a></p>
+                    <button class="demo_btn">Watch demo video</button>
                 </div>
             </div>
             <div class="banner_img">
                 <img src="/images/hero-mobile.png" alt="banner">
             </div>
         </div>
-    </header>
+    </section>
+    <!-- Banner section end -->
+    
 </body>
 </html>

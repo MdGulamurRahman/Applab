@@ -1,3 +1,6 @@
+/*================
+    Common Css 
+=================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
 *,
 ::after,
@@ -11,6 +14,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color:#f9fbfc;
 }
 
 ul{
@@ -25,11 +29,11 @@ a{
     margin: 0 auto;
     padding: 0 15px;
 }
-/* header style  */
+/*===================
+    header style  
+=====================*/
 header{
-    background-color:#f9fbfc;
-    margin-top: 20px;
-    
+    margin-top: 15px;
 }
 .inner_header{
     display: flex;
@@ -41,6 +45,16 @@ header{
 }
 .logo-area img{
     width: 100%;
+}
+#menu_toggler{
+    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#menu_toggler i{
+    color: black;
+    font-size: 35px;
 }
 .menu ul{
     display: flex;
@@ -69,47 +83,91 @@ header{
     font-size: 16px;
     line-height: 44px;
     color: #ffffff;
-    font-weight: 700;   
+    font-weight: 700;
+    cursor: pointer;   
 }
 
-/* banner area  */
-
-.banner_area{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin-top: 41px;
+/*=================
+    banner style 
+===================*/
+#banner{
+    min-height: calc(100vh - 72px);
     background-image: url('./images/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-
+    background-position:left bottom;
 }
 
-.text_area h1{
+.inner_banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 41px;
+}
+.banner_text h6{
+    font-size: 18px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+    max-width: 362px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #e2eaed;
+    display: flex;
+    align-items: center;
+
+}
+.banner_text h6 i{
+    display: block;
+    width: 39px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #feaa25;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+   
+}
+
+.banner_text h1{
     font-size: 60px;
     line-height: 75px;
     color: #242f51;
     font-weight: 600;
+    max-width: 519px;
+    margin: 28px 0;
 }
-.text_area p{
+.banner_text p{
     font-size: 18px;
     line-height: 28px;
     color: #616368;
     font-weight: 400;
-    padding-top: 47px;
+    max-width: 486px;
+    margin-bottom: 38px;
 }
-.text_area p a{
+
+.demo_btn{
     font-size: 16px;
     line-height: 44px;
     color: #2500f9;
     font-weight: 400;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-left: 28px;
 }
 .watch_demo{
     display: flex;
     align-items: center;
-    padding-top: 39px;
 }
-.watch_demo p{
-    padding: 0 29px;
+.banner_img{
+    max-width: 320px;
+}
+.banner_img img{
+    width: 100%;
 }
