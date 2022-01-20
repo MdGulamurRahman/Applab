@@ -91,7 +91,7 @@ header{
     banner style 
 ===================*/
 #banner{
-    min-height: calc(100vh - 72px);
+    min-height: calc(100vh - 115px);
     background-image: url('./images/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,8 +166,271 @@ header{
     align-items: center;
 }
 .banner_img{
-    max-width: 320px;
+    max-width: 330px;
 }
 .banner_img img{
     width: 100%;
+}
+/*=================
+    Company style 
+===================*/
+.inner_company{
+   /* margin: 115px 0; */
+}
+.inner_company{
+    padding: 115px 0;
+}
+.inner_company h6{
+    font-size: 16px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.company_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company_img img{
+    width: 138px;
+    margin: 0 45px;
+}
+/*=================
+    Feature style 
+===================*/
+.inner_features{
+    background-image: url('./images/feature-bg.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 760px;
+    margin-top: 60px;
+}
+.feature_apps{
+    max-width: 446px;
+    margin-left: auto;
+}
+.apps_container{
+    max-width: 440px;
+}
+.feature_title h3{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 30px;
+    max-width: 284px;
+}
+.feature_title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.app_area{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 0;
+    margin-right: 85px;
+    max-width: 430px;
+}
+.app_area img{
+    width: 90px;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+.app_title_one h6{
+    font-size: 20px;
+    line-height: 58px;
+    color: #f55767;
+    font-weight: 600;
+}
+.app_title_two h6{
+    font-size: 20px;
+    line-height: 58px;
+    color: #2563ff;
+    font-weight: 600;
+}
+.app_title_three h6{
+    font-size: 20px;
+    line-height: 58px;
+    color: #40975f;
+    font-weight: 600;
+}
+.app_title_three{
+    max-width: 400px;
+}
+/*=================
+    jackport style 
+===================*/
+.inner_jackport{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 962px;
+    margin-top: 130px;
+}
+.jackport_title{
+    border-right: 1px solid  #4b4a48;
+}
+.title_one{
+    max-width: 487px;
+}
+.title_one h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+}
+.title_two{
+    max-width: 394px;
+}
+.title_two h6{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+/*=================
+    Network style 
+===================*/
+.inner_network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.inner_network div{
+   max-width: 264px;
+}
+.inner_network div img{
+   width: 90px;
+}
+.inner_network div p{
+   font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+.network_two{
+    margin: 0 120px;
+}
+.network_one h2{
+    font-size: 20px;
+    line-height: 58px;
+    color: #f55767;
+    font-weight: 600;
+    
+}
+.network_two h2{
+    font-size: 20px;
+    line-height: 58px;
+    color: #2563ff;
+    font-weight: 600;
+   
+}
+.network_three h2{
+    font-size: 20px;
+    line-height: 58px;
+    color: #40975f;
+    font-weight: 600;
+}
+/*=================
+    Integration style 
+===================*/
+#integration{
+    background-image: url('./images/integration-bg.png');
+    background-position: 5% bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 550px;
+    min-width: 594px;
+    margin-top: 116px;
+}
+.integration_field{
+    max-width: 410px;
+    margin-left: auto;
+    padding-top: 130px;
+}
+.integration_field{
+    margin-right: 100px;
+}
+.integration_field h1{
+    max-width: 364px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+}
+.integration_field p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    margin: 30px 0;
+    max-width: 411px;
+}
+/*======================
+    development style 
+========================*/
+.inner_app_development{
+    margin-top: 210px;
+}
+.inner_app_development div h1{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    max-width: 439px;
+    margin: auto;
+}
+.inner_app_development div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+    max-width: 634px;
+    margin: auto;
+    margin-top: 35px;
+}
+.app_development_field{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+}
+.app_development_field div{
+    padding-top: 88px;
+}
+.app_development_field div{
+    max-width: 266px;
+    margin: auto;
+}
+.app_development_field div h3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+.app_development_field div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+}
+.app_development_field div img{
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
