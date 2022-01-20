@@ -381,7 +381,7 @@ header{
 .inner_app_development{
     margin-top: 210px;
 }
-.inner_app_development div h1{
+.inner_app_development .dev_title h1{
     font-size: 36px;
     line-height: 46px;
     color: #242f51;
@@ -390,7 +390,7 @@ header{
     max-width: 439px;
     margin: auto;
 }
-.inner_app_development div p{
+.inner_app_development .dev_title p{
     font-size: 16px;
     line-height: 26px;
     color: #616368;
@@ -433,4 +433,136 @@ header{
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+/*======================
+    Planning style 
+========================*/
+#planning{
+    background-image: url('./images/planning-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    min-height:775px;
+    min-width: 700px;
+    margin-top: 180px;
+}
+.inner_planning{
+    max-width: 629;
+}
+.inner_planning .planning_field{
+    max-width: 634px;
+}
+.inner_planning .plan_title h1{
+    max-width: 320px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+}
+.inner_planning .plan_title p{
+    max-width: 395px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.planning_field{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.planning_field div{
+    max-width: 262px;
+    padding: 20px 0;
+}
+.planning_field div h3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+}
+.planning_field div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+/*======================
+    Planning style 
+========================*/
+.business_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business_card_one{
+    width: 317px;
+    height: 554px;
+    border-radius: 9px;
+    filter: drop-shadow(3.837px 54.866px 31px rgba(144,163,177,0.18));
+    background-color: #ffffff;
+}
+.drop_card ul li {
+    max-width: 166px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 48px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+.business_class h1{
+    font-size: 60px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+.business_class h1 span{
+    font-size: 18px;
+    line-height: 28px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+.business_class h3{
+    font-size: 20px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+.business_class p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+.business_class {
+    width: 317px;
+    background-color: #f4f7f9;
+    padding: 70px 40px;
+}
+.drop_btn{
+    width: 210px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #2500f9;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.drop_card{
+    padding: 38px 0;
+}
+.drop_card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
