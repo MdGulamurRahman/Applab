@@ -65,9 +65,13 @@
         padding: 24px 0;
         max-width: 470px;
     }
-    /* #footer {
-        height: 445px;
-    } */
+    .according_area div {
+        font-size: 16px;
+    }
+    .emergency_area p {
+        font-size: 13px;
+        line-height: 23px;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
@@ -120,6 +124,17 @@
         background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
         /* background-position: right bottom;
         min-width: 415px; */
+    }
+    .according_area div {
+        font-size: 14px;
+    }
+    .emergency_area p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .question_title p {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
@@ -260,6 +275,28 @@
     }
     .footer_menu ul li {
         padding: 0px 6px;
+    }
+    .according_area div {
+        font-size: 8px;
+    }
+    .emergency_area p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .emergency_area h3 {
+        font-size: 15px;
+        line-height: 48px;
+    }
+    .emergency_area {
+        height: 200px;
+    }
+    .question_title h1 {
+        font-size: 23px;
+        line-height: 21px;
+    }
+    .question_title p {
+        font-size: 10px;
+        line-height: 16px;
     }
    
 }

@@ -775,7 +775,7 @@ header{
     background-size: contain;
     min-height:450px;
     min-width: 700px;
-    margin-top: 180px;
+    margin-top: 150px;
     border-top: 1px solid #e5e6e5;
 }
 .location_title {
@@ -851,4 +851,66 @@ header{
     font-weight: 400;
     text-align: center;
     padding-top: 90px;
+}
+/*======================
+    Question style 
+========================*/
+.inner_question{
+    margin-top: 170px;
+}
+.question_title h1{
+    font-size: 40px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+.question_title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    max-width: 640px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 35px 0;
+}
+.emergency_area{
+    max-width: 945px;
+    height: 256px;
+    background-color: #f5f7fa;
+    padding: 40px;
+}
+.emergency_area h3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+}
+.emergency_area p{
+    max-width: 810px;
+    height: 110px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+.according_area div {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* max-width: 945px; */
+}
+.according_area div{
+    max-width: 945px;
+    height: 63px;
+    background-color: #f5f7fa;
+    margin: 10px 0;
+    padding: 0 40px;
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 500;
 }
