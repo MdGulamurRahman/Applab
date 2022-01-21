@@ -493,10 +493,35 @@ header{
 /*======================
     Planning style 
 ========================*/
+.inner_business{
+    margin-top: 140px;
+}
 .business_parent{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+}
+.business_title h1{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    max-width: 572px;
+    margin: auto;
+}
+.business_title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+    max-width: 637px;
+    margin: auto;
+    padding: 36px 0;
+}
+.business_parent .card{
+    margin: 0 30px;
 }
 .business_card_one{
     width: 317px;
@@ -557,6 +582,7 @@ header{
     color: #ffffff;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 .drop_card{
     padding: 38px 0;
@@ -565,4 +591,264 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* Business card no two */
+.business_card_two{
+    width: 317px;
+    height: 605px;
+    border-radius: 9px;
+    background-color: #ffffff;
+    border: 2px solid #ebebeb;
+}
+.drop_card p {
+    text-align: center;
+    padding-top: 20px;
+}
+.drop_card p a{
+    font-size: 16px;
+    line-height: 28px;
+    color: #2500f9;
+    font-weight: 400;
+}
+/* business btn  */
+.business_btn{
+    width: 283px;
+    height: 57px;
+    border-radius: 29px;
+    border: 2px solid #ebebeb;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 36px;
+    
+}
+.business_btn button{
+   padding: 0 35px;
+  
+}
+.business_btn .monthly_btn{
+    width: 136px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #2500f9;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.business_btn .annually_btn{
+    background-color: #ebebeb00;
+    border-radius: 24px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    line-height: 44px;
+    color: #616368;
+    font-weight: 500;
+    cursor: pointer;
+}
+/*======================
+    Client style 
+========================*/
+#client{
+    background-image: url('./images/client-bg.png');
+    background-repeat: no-repeat;
+    background-position: 5% bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 550px;
+    min-width: 594px;
+    margin-top: 146px;
+}
+.client_parent{
+    max-width: 592px;
+    margin-left: auto;
+}
+.client_parent .title_field h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+    max-width: 484px;
+}
+.client_parent .title_field p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    max-width: 480px;
+    padding: 30px 0;
+}
+.client_parent .title_field span i{
+    font-size: 20px;
+    line-height: 58px;
+    color: #ffcc00;
+}
+.text_field h3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+
+}
+.text_field p{
+    max-width: 568px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+.ceo_area{
+    display: flex;
+   justify-content:space-between;
+    align-items: center;
+    max-width: 592px;
+    margin-top: 50px;
+}
+.main_ceo{
+    display: flex;
+    justify-content:space-between;
+     align-items: center;
+}
+.main_ceo img{
+   width: 91px;
+}
+.main_ceo div{
+    margin-left: 27px;
+}
+.ceo_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ceo_btn .left_arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eff3f8;
+    border: 2px solid #eff3f8; 
+    cursor: pointer;
+}
+.extra{
+    width: 1px;
+    height: 25px;
+    background-color: #e7e7e7;
+    border: 1px solid #e7e7e7;
+    margin: 0 5px;
+}
+.ceo_btn .right_arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eff3f8;
+    border: 0;
+    cursor: pointer;
+}
+.ceo_btn .left_arrow i{
+    font-size: 18px;
+    line-height: 58px;
+    color: #dee1e6;
+    
+}
+.ceo_btn .left_arrow i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ceo_btn .right_arrow i{
+    font-size: 18px;
+    line-height: 58px;
+    color: #2500f9;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+/*======================
+    Location style 
+========================*/
+#location{
+    background-image: url('./images/app-location-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    min-height:450px;
+    min-width: 700px;
+    margin-top: 180px;
+    border-top: 1px solid #e5e6e5;
+}
+.location_title {
+    max-width: 642px;
+    margin-top: 67px;
+}
+.location_title h1 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    max-width: 595px;
+}
+.location_title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+   padding: 40px 0;
+}
+/*======================
+    Footer style 
+========================*/
+#footer{
+    height: 530px;
+    background-color: #09142e;
+}
+.footer_area {
+    padding-top: 113px;
+}
+.footer_menu ul{
+    display: inline;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer_menu ul li{
+    padding: 0 20px;
+}
+.footer_menu ul li a{
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+.footer_menu ul {
+    padding: 40px 0;
+}
+.footer_menu img{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.footer_icon h3 .fab{
+    font-size: 36px;
+    letter-spacing: 23px;
+    line-height: 44px;
+    color: #273043;
+    font-weight: 400;
+}
+.footer_icon h3 .fa-slack-hash{
+   color: #fff;
+}
+.footer_icon h3{
+    text-align: center;
+}
+.inner_footer p{
+    font-size: 14px;
+    line-height: 44px;
+    color: #5d6985;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 90px;
 }

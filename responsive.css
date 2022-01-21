@@ -49,6 +49,25 @@
     .inner_planning{
        padding: 0 88px;
     }
+    #client {
+        background-image:none
+    }
+    .client_parent{
+        margin: auto;
+    }
+    .location_title h1 {
+        font-size: 35px;
+        max-width: 441px;
+    }
+    .location_title p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 24px 0;
+        max-width: 470px;
+    }
+    /* #footer {
+        height: 445px;
+    } */
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
@@ -96,7 +115,12 @@
     }
     #planning{
         background-image: none;
-    } 
+    }
+    #location {
+        background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
+        /* background-position: right bottom;
+        min-width: 415px; */
+    }
 }
 
 
@@ -182,7 +206,61 @@
         min-height:0;
         min-width:0;
         margin-top: 70px;
-    } 
+    }
+    .business_parent{
+        flex-direction:column;
+        justify-content: center;
+        align-content: center;
+    }
+    .business_parent .card{
+       margin: auto;
+     
+    }
+    .business_parent .business_card_two{
+       margin-top: 30px;
+     
+    }
+    #client {
+        background-image:linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/client-bg.png');
+        background-position: center;
+        min-width: 408px;
+    }
+    .client_parent .title_field h1 {
+        font-size: 30px;
+        line-height: 42px;
+        max-width: 380px;
+    }
+    .client_parent .title_field p {
+        font-size: 15px;
+        line-height: 24px;
+        max-width: 393px;
+    }
+    .text_field p {
+        max-width: 406px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .ceo_area {
+        max-width: 383px;
+    }
+    .main_ceo img {
+        width: 79px;
+    }
+    #location {
+        background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
+        background-position: right bottom;
+        min-width: 408px;
+    }
+    .location_title {
+       margin: auto;
+       margin-top: 67px;
+    }
+    .location_title img{
+       width: 90%;
+    }
+    .footer_menu ul li {
+        padding: 0px 6px;
+    }
    
 }
 
