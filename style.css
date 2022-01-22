@@ -343,9 +343,9 @@ header{
 /*=================
     Integration style 
 ===================*/
-#integration{
+.inner_integration{
     background-image: url('./images/integration-bg.png');
-    background-position: 5% bottom;
+    background-position: -10% bottom;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 550px;
@@ -437,29 +437,27 @@ header{
 /*======================
     Planning style 
 ========================*/
-#planning{
+.inner_planning {
     background-image: url('./images/planning-bg.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
-    min-height:775px;
-    min-width: 700px;
+    background-position: 107% bottom;
+    background-size: 53%;
     margin-top: 180px;
 }
-.inner_planning{
+.plan_area{
     max-width: 629;
 }
-.inner_planning .planning_field{
+.plan_area .planning_field{
     max-width: 634px;
 }
-.inner_planning .plan_title h1{
+.plan_area .plan_title h1{
     max-width: 320px;
     font-size: 36px;
     line-height: 46px;
     color: #242f51;
     font-weight: 600;
 }
-.inner_planning .plan_title p{
+.plan_area .plan_title p{
     max-width: 395px;
     font-size: 16px;
     line-height: 26px;
@@ -491,7 +489,7 @@ header{
     font-weight: 400;
 }
 /*======================
-    Planning style 
+    Business style 
 ========================*/
 .inner_business{
     margin-top: 140px;
@@ -652,12 +650,12 @@ header{
 /*======================
     Client style 
 ========================*/
-#client{
+.inner_client{
     background-image: url('./images/client-bg.png');
     background-repeat: no-repeat;
-    background-position: 5% bottom;
+    background-position: -6% bottom;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 56%;
     min-height: 550px;
     min-width: 594px;
     margin-top: 146px;
@@ -752,18 +750,28 @@ header{
     color: #dee1e6;
     
 }
-.ceo_btn .left_arrow i{
+.ceo_btn .left_arrow{
+    position: relative;
+}
+.ceo_btn .left_arrow::after{
+    content: "";
+    width: 1px;
+    height: 25px;
+    background-color: #e7e7e7;
+    position: absolute;
+    left: 53px;
+    
+}
+.ceo_btn button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 6px;
 }
 .ceo_btn .right_arrow i{
     font-size: 18px;
     line-height: 58px;
     color: #2500f9;
-    display: flex;
-    justify-content: center;
-    align-items: center
 }
 /*======================
     Question style 
@@ -831,18 +839,20 @@ header{
     Location style 
 ========================*/
 #location{
-    background-image: url('./images/app-location-bg.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
-    min-height:450px;
-    min-width: 700px;
     margin-top: 150px;
     border-top: 1px solid #e5e6e5;
 }
+.inner_location{
+    background-image: url('./images/app-location-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 62%;
+    min-height:450px;
+    min-width: 700px;
+}
 .location_title {
     max-width: 642px;
-    margin-top: 67px;
+    padding-top: 67px;
 }
 .location_title h1 {
     font-size: 48px;
