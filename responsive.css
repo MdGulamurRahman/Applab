@@ -228,7 +228,7 @@
     }
     .inner_features{
         padding: 0 15px;
-        
+        min-height: 674px;
     }
     .feature_title h3 {
         font-size: 23px;
