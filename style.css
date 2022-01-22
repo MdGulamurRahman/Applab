@@ -657,7 +657,7 @@ header{
     background-repeat: no-repeat;
     background-size: 56%;
     min-height: 550px;
-    min-width: 594px;
+    /* min-width: 594px; */
     margin-top: 146px;
 }
 .client_parent{
@@ -848,7 +848,7 @@ header{
     background-position: right bottom;
     background-size: 62%;
     min-height:450px;
-    min-width: 700px;
+    /* min-width: 700px; */
 }
 .location_title {
     max-width: 642px;
@@ -874,7 +874,10 @@ header{
 ========================*/
 #footer{
     height: 530px;
-    background-color: #09142e;
+    /* 
+    background-color: #09142e; */
+    background-image: url('./images/footer-bg.png');
+
 }
 .footer_area {
     padding-top: 113px;
